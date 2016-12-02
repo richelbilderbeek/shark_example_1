@@ -1,0 +1,6 @@
+sudo: require
+
+
+install:
+  - git clone https://github.com/Shark-ML/Shark.git
+  - sudo apt-get install cmake cmake-curses-gui libatlas-base-dev libboost-all-dev
